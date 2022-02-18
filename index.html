@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-4 col-sm-12 col-xs-12">
+                <div class="card p-4">
+                    <div class="d-flex">
+                        <h4 class="flex-grow-1">Search for Cities or Countries</h4>
+                        <h6 class="current-time">16:08</h6>
+                    </div>
+                    
+
+                    <div>
+                        <input class="input-field" type="text">
+                    </div>
+
+
+                    <div class="d-flex flex-column temp mt-5 mb-3">
+                        <h1 class="mb-0 font-weight-bold" id="heading"> 0° C </h1> <span class="small grey">Stormy</span>
+                    </div>
+                    <div class="d-flex">
+                        <div class="temp-details flex-grow-1">
+                            <p class="my-1"> <img src="https://cdn4.iconfinder.com/data/icons/autumn-solid-1/520/Autum_Solid-18-512.png" style="opacity: 50%" height="17px"> <span class="parametr"></span> </p>
+                            <p class="my-1"> <i class="fa fa-tint mr-2" aria-hidden="true"></i> <span class="parametr"></span> </p>
+                            <p class="my-1"> <img src="https://cdn0.iconfinder.com/data/icons/40-lined-icons-2/100/40_sun-512.png" style="opacity: 50%" height="17px"> <span class="parametr"></span> </p>
+                        </div>
+                        <div> <img class="rasm" src="./sunny.png" width="100px"> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="./main.js"></script>
+</body>
+</html>
